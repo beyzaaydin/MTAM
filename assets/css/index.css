@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ 
+	background-image:url(../images/appetizer-background-cuisine-326281.jpg);
+	background-repeat: no-repeat; 
+	background-position: top center; 
+	background-attachment: fixed ;
+
+} 
+
+
+#ortala{
+	margin-top:75px;
+	}

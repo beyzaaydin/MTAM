@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" />
+  <!--  theme CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="color/default.css" rel="stylesheet">
+    
+  <style>
+      .form
+      {
+          text-align: right;
+          font-size: 15px;
+      }
+    
+</style>
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+        <a class="navbar-brand" href="homepage.html">
+          <h1 style="color: #6c0f0f;">More Than A Menu</h1>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="caregiver.html">Caregiver</a></li>
+          <li><a id="logout" href="">Logout</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Section: intro -->
+    
+  <section id="intro" class="intro" >
+
+    <div class="slogan">
+      <div  id="slogan->form" class="col-md-4" style="margin-left: 15%; " >
+
+          <h3 id="cr-baslik" style="color :white" >Create New Restaurant / Cafe</h3> </br>
+
+        <form  id="add-form" action="homepage.html" method="post" style="background-color: white; font-weight: 900; opacity: 0.8; padding: 20px; color: #444444">
+
+          <div class="col-md-6 form">
+            <span style="color: #444">Type Category: </span>
+
+          </div>
+          <div class="col-md-6">
+            <select id="selection-obj" class="registertextcss">
+              <option value="select-type" selected>Selecet Type</option>
+              <option value="cafe" >Cafe</option>
+              <option value="restaurant">Restaurant</option>
+            </select>
+          </div>
+          <div class="col-md-6 form" >
+
+            <span style="color: #444444">Name : </span>
+        </div>
+        <div class="col-md-6">
+          <input id="name1" class="registertextcss" type="text"    /><br>
+        </div>
+
+        <div class="col-md-6 form">
+            <span style="color: #444444">Address : </span>
+        </div>
+          <div class="col-md-6">
+          <input class="registertextcss" type="text" id="cr-adress"  name="" /><br>
+        </div>
+
+
+
+        <div class="col-md-6 form">
+            <span style="color: #444444">Tıme :</span>
+        </div>
+
+          <div class="col-md-6">
+          <input  type="time" class="registerlistcss" name="time"  >
+        </div>
+
+          <br>
+
+        <button type="button" id="create-btn" class="btn btn-primary SendToFirebase" style="    margin-left: 45%;">Create</button>
+
+        </form>
+        </div>
+    </div>
+  </div>
+  </section>
+  <!-- /Section: intro -->
+
+
+
+
+  <!-- Core JavaScript Files -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+  <!-- Firebase JavaScript -->
+  <script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+  
+  <script src="assets/js/app/main.js"></script>
+  <script src="assets/js/app/add.js"></script>
+</body>
+
+</html>

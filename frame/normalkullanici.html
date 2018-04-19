@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kablosuzkedi | Firebase ile TODO List</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h3 class="text-center">Kayıt Ol</h3>
+    <div class="row">
+        <form action="" method="post" name="iletisim" style="background-color:rgba(21, 17, 27, 0.164); opacity: 0.9; padding: 3px;">
+           
+            <h1>Create New Account</h1>
+    	<input class="registertextcss" id="eposta" type="email" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off name="form_3" placeholder="E-Mail" required><br>
+            
+ 		<input class="registertextcss" id="sifre" type="password" onselectstart="return false" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off name="form_4" placeholder="Password" required><br>
+            <button id="register_btn" class="btn btn-primary sendToTheFirebase"><b>Register</b></button>
+				 
+        </form>
+    </div>
+</div>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
+<script src="../assets/js/app/kullanıci_register.js"></script>
+
+
+</body>
+</html>
